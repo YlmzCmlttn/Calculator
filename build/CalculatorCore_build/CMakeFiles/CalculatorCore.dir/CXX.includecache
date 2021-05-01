@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Calculator/include/Calculator.h
+string
+-
+
+/home/cemo/Youtube/Git/Calculator/Calculator/src/Calculator.cpp
+Calculator.h
+/home/cemo/Youtube/Git/Calculator/Calculator/src/Calculator.h
+

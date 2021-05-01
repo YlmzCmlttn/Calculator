@@ -1,0 +1,6 @@
+/home/cemo/Youtube/Git/Calculator/build/CMakeFiles/rebuild_cache.dir
+/home/cemo/Youtube/Git/Calculator/build/CMakeFiles/Calculator.dir
+/home/cemo/Youtube/Git/Calculator/build/CMakeFiles/edit_cache.dir
+/home/cemo/Youtube/Git/Calculator/build/CalculatorCore_build/CMakeFiles/rebuild_cache.dir
+/home/cemo/Youtube/Git/Calculator/build/CalculatorCore_build/CMakeFiles/CalculatorCore.dir
+/home/cemo/Youtube/Git/Calculator/build/CalculatorCore_build/CMakeFiles/edit_cache.dir
