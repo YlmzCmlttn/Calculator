@@ -81,17 +81,69 @@ CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o.provides
 CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o.provides.build: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o
 
 
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/flags.make
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o: ../Calculator/src/ReversePolishNotation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cemo/Youtube/Git/Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o"
+	cd /home/cemo/Youtube/Git/Calculator/build/CalculatorCore_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o -c /home/cemo/Youtube/Git/Calculator/Calculator/src/ReversePolishNotation.cpp
+
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.i"
+	cd /home/cemo/Youtube/Git/Calculator/build/CalculatorCore_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cemo/Youtube/Git/Calculator/Calculator/src/ReversePolishNotation.cpp > CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.i
+
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.s"
+	cd /home/cemo/Youtube/Git/Calculator/build/CalculatorCore_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cemo/Youtube/Git/Calculator/Calculator/src/ReversePolishNotation.cpp -o CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.s
+
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o.requires:
+
+.PHONY : CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o.requires
+
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o.provides: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o.requires
+	$(MAKE) -f CalculatorCore_build/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o.provides.build
+.PHONY : CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o.provides
+
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o.provides.build: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o
+
+
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/flags.make
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o: ../Calculator/src/ShuntingYard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cemo/Youtube/Git/Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o"
+	cd /home/cemo/Youtube/Git/Calculator/build/CalculatorCore_build && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o -c /home/cemo/Youtube/Git/Calculator/Calculator/src/ShuntingYard.cpp
+
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.i"
+	cd /home/cemo/Youtube/Git/Calculator/build/CalculatorCore_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cemo/Youtube/Git/Calculator/Calculator/src/ShuntingYard.cpp > CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.i
+
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.s"
+	cd /home/cemo/Youtube/Git/Calculator/build/CalculatorCore_build && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cemo/Youtube/Git/Calculator/Calculator/src/ShuntingYard.cpp -o CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.s
+
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o.requires:
+
+.PHONY : CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o.requires
+
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o.provides: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o.requires
+	$(MAKE) -f CalculatorCore_build/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o.provides.build
+.PHONY : CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o.provides
+
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o.provides.build: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o
+
+
 # Object files for target CalculatorCore
 CalculatorCore_OBJECTS = \
-"CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o"
+"CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o" \
+"CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o" \
+"CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o"
 
 # External object files for target CalculatorCore
 CalculatorCore_EXTERNAL_OBJECTS =
 
 CalculatorCore_build/libCalculatorCore.a: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o
+CalculatorCore_build/libCalculatorCore.a: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o
+CalculatorCore_build/libCalculatorCore.a: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o
 CalculatorCore_build/libCalculatorCore.a: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/build.make
 CalculatorCore_build/libCalculatorCore.a: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cemo/Youtube/Git/Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libCalculatorCore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cemo/Youtube/Git/Calculator/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libCalculatorCore.a"
 	cd /home/cemo/Youtube/Git/Calculator/build/CalculatorCore_build && $(CMAKE_COMMAND) -P CMakeFiles/CalculatorCore.dir/cmake_clean_target.cmake
 	cd /home/cemo/Youtube/Git/Calculator/build/CalculatorCore_build && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CalculatorCore.dir/link.txt --verbose=$(VERBOSE)
 
@@ -101,6 +153,8 @@ CalculatorCore_build/CMakeFiles/CalculatorCore.dir/build: CalculatorCore_build/l
 .PHONY : CalculatorCore_build/CMakeFiles/CalculatorCore.dir/build
 
 CalculatorCore_build/CMakeFiles/CalculatorCore.dir/requires: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o.requires
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/requires: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o.requires
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/requires: CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o.requires
 
 .PHONY : CalculatorCore_build/CMakeFiles/CalculatorCore.dir/requires
 

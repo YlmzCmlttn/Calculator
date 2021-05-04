@@ -1,8 +1,9 @@
 #include <iostream>
-
-#include "shunting_yard.hpp"
-
+#include "ShuntingYard.h"
 int main() {
+
+
+	
 	std::cout << "Hello, Shunting Yard!" << std::endl;
 
 	std::cout << "Input equation: ";
@@ -10,11 +11,14 @@ int main() {
 	std::string eqn;
 	std::getline(std::cin, eqn);
 
-	ShuntingYard::variables["x"] = 15;
+	//ShuntingYard::variables["x"] = 15;
 
-	ShuntingYard::RPN rpn = ShuntingYard::reversePolishNotation(eqn.c_str());
-	ShuntingYard::Node* tree = ShuntingYard::parse(rpn);
-	std::cout << "= " << ShuntingYard::eval(tree) << std::endl;
+	
+	ReversePolishNotation::RPN rpn = ReversePolishNotation::reversePolishNotation(eqn);
+	//ShuntingYard::RPN rpn = ShuntingYard::reversePolishNotation(eqn.c_str());
+	
+	std::shared_ptr<ShuntingYard::Node> tree = ShuntingYard::parse(rpn);
+	std::cout << "= " << ShuntingYard::calculate(tree) << std::endl;
 
 	return 0;
 }

@@ -152,6 +152,60 @@ src/Calculator.cpp.s:
 	cd /home/cemo/Youtube/Git/Calculator/build && $(MAKE) -f CalculatorCore_build/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.s
 .PHONY : src/Calculator.cpp.s
 
+src/ReversePolishNotation.o: src/ReversePolishNotation.cpp.o
+
+.PHONY : src/ReversePolishNotation.o
+
+# target to build an object file
+src/ReversePolishNotation.cpp.o:
+	cd /home/cemo/Youtube/Git/Calculator/build && $(MAKE) -f CalculatorCore_build/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o
+.PHONY : src/ReversePolishNotation.cpp.o
+
+src/ReversePolishNotation.i: src/ReversePolishNotation.cpp.i
+
+.PHONY : src/ReversePolishNotation.i
+
+# target to preprocess a source file
+src/ReversePolishNotation.cpp.i:
+	cd /home/cemo/Youtube/Git/Calculator/build && $(MAKE) -f CalculatorCore_build/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.i
+.PHONY : src/ReversePolishNotation.cpp.i
+
+src/ReversePolishNotation.s: src/ReversePolishNotation.cpp.s
+
+.PHONY : src/ReversePolishNotation.s
+
+# target to generate assembly for a file
+src/ReversePolishNotation.cpp.s:
+	cd /home/cemo/Youtube/Git/Calculator/build && $(MAKE) -f CalculatorCore_build/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.s
+.PHONY : src/ReversePolishNotation.cpp.s
+
+src/ShuntingYard.o: src/ShuntingYard.cpp.o
+
+.PHONY : src/ShuntingYard.o
+
+# target to build an object file
+src/ShuntingYard.cpp.o:
+	cd /home/cemo/Youtube/Git/Calculator/build && $(MAKE) -f CalculatorCore_build/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o
+.PHONY : src/ShuntingYard.cpp.o
+
+src/ShuntingYard.i: src/ShuntingYard.cpp.i
+
+.PHONY : src/ShuntingYard.i
+
+# target to preprocess a source file
+src/ShuntingYard.cpp.i:
+	cd /home/cemo/Youtube/Git/Calculator/build && $(MAKE) -f CalculatorCore_build/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.i
+.PHONY : src/ShuntingYard.cpp.i
+
+src/ShuntingYard.s: src/ShuntingYard.cpp.s
+
+.PHONY : src/ShuntingYard.s
+
+# target to generate assembly for a file
+src/ShuntingYard.cpp.s:
+	cd /home/cemo/Youtube/Git/Calculator/build && $(MAKE) -f CalculatorCore_build/CMakeFiles/CalculatorCore.dir/build.make CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.s
+.PHONY : src/ShuntingYard.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,6 +218,12 @@ help:
 	@echo "... src/Calculator.o"
 	@echo "... src/Calculator.i"
 	@echo "... src/Calculator.s"
+	@echo "... src/ReversePolishNotation.o"
+	@echo "... src/ReversePolishNotation.i"
+	@echo "... src/ReversePolishNotation.s"
+	@echo "... src/ShuntingYard.o"
+	@echo "... src/ShuntingYard.i"
+	@echo "... src/ShuntingYard.s"
 .PHONY : help
 
 

@@ -8,6 +8,7 @@
 #include <stack>
 #include <cmath>
 #include <algorithm>
+#include <iostream>
 namespace ShuntingYard {
 	/*
 		Typedefs
@@ -221,7 +222,7 @@ namespace ShuntingYard {
 		// token reading and detection
 		for (int i = 0, eqLen = (int)std::strlen(eqn); i < eqLen; i++) {
 			char t = eqn[i];
-
+			bool run = true;
 			// skip spaces and commas
 			if (t == ' ' || t == ',') {
 				//prevType = TokenTypes::ELSE;
@@ -236,23 +237,37 @@ namespace ShuntingYard {
 				}
 				else if (t == '-') {
 					acceptNegative = false;
+					if(prevType == TokenTypes::CONSTANT || prevType == TokenTypes::ELSE){
+						run = false;
+					}
+					if(i==0){
+						run = true;
+					}
 				}
 
 				int startI = i;
 				if (i < eqLen - 1) {
+					if(run){
 					while (isNumber(eqn[i + 1], acceptDecimal, acceptNegative)) {
+						
+						if(eqn[i+1]=='-' && (prevType == TokenTypes::CONSTANT || prevType == TokenTypes::ELSE) ){
+							break;
+						}
 						i++;
 						if (i >= eqLen - 1) {
 							break;
 						}
 					}
+					}
 				}
 				obj = std::string(eqn).substr(startI, i - startI + 1);
+				std::cout<<obj<<std::endl;
 
 				// subtraction sign detection
 				if (obj == "-") {
 					type = TokenTypes::OPERATOR;
 				}
+				prevType = type;
 			}
 			else {
 				obj = findElement(i, eqn, functionNames);
@@ -341,6 +356,14 @@ namespace ShuntingYard {
 			queue.push_back(stack.top());
 			stack.pop();
 		}
+
+
+        
+        for (size_t i = 0; i < queue.size(); i++)
+		
+        {
+            std::cout<<i<<" " <<queue[i]<<std::endl;
+        }
 
 		return queue;
 	}
@@ -444,7 +467,7 @@ namespace ShuntingYard {
 		else if (acceptDecimal && c == '.') {
 			return true;
 		}
-		else if (acceptNegative && c == '-') {
+		else if ((acceptNegative) && (c == '-')) {
 			return true;
 		}
 

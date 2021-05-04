@@ -1,2 +1,2 @@
-/usr/bin/ar qc libCalculatorCore.a  CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o
+/usr/bin/ar qc libCalculatorCore.a  CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o
 /usr/bin/ranlib libCalculatorCore.a

@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cemo/Youtube/Git/Calculator/Calculator/src/Calculator.cpp" "/home/cemo/Youtube/Git/Calculator/build/CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o"
+  "/home/cemo/Youtube/Git/Calculator/Calculator/src/ReversePolishNotation.cpp" "/home/cemo/Youtube/Git/Calculator/build/CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o"
+  "/home/cemo/Youtube/Git/Calculator/Calculator/src/ShuntingYard.cpp" "/home/cemo/Youtube/Git/Calculator/build/CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

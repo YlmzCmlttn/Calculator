@@ -4,3 +4,10 @@
 CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o
  ../Calculator/include/Calculator.h
  /home/cemo/Youtube/Git/Calculator/Calculator/src/Calculator.cpp
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o
+ ../Calculator/include/ReversePolishNotation.h
+ /home/cemo/Youtube/Git/Calculator/Calculator/src/ReversePolishNotation.cpp
+CalculatorCore_build/CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o
+ ../Calculator/include/ReversePolishNotation.h
+ ../Calculator/include/ShuntingYard.h
+ /home/cemo/Youtube/Git/Calculator/Calculator/src/ShuntingYard.cpp

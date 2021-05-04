@@ -6,9 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/home/cemo/Youtube/Git/Calculator/main.cpp
+../Calculator/include/ReversePolishNotation.h
+vector
+-
+string
+-
 functional
 -
+map
+-
+memory
+-
+math.h
+-
+
+../Calculator/include/ShuntingYard.h
+string
+-
+vector
+-
+functional
+-
+map
+-
+memory
+-
+math.h
+-
+stack
+-
+ReversePolishNotation.h
+../Calculator/include/ReversePolishNotation.h
+
+/home/cemo/Youtube/Git/Calculator/main.cpp
 iostream
 -
+ShuntingYard.h
+/home/cemo/Youtube/Git/Calculator/ShuntingYard.h
 

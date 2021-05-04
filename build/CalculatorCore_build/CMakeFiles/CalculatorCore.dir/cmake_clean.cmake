@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CalculatorCore.dir/src/Calculator.cpp.o"
+  "CMakeFiles/CalculatorCore.dir/src/ReversePolishNotation.cpp.o"
+  "CMakeFiles/CalculatorCore.dir/src/ShuntingYard.cpp.o"
   "libCalculatorCore.pdb"
   "libCalculatorCore.a"
 )
