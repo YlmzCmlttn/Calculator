@@ -183,3 +183,5 @@ namespace ReversePolishNotation
     std::vector<std::string> g_ConstantNames = keys<double>(g_Constants);
 } // namespace ReversePolishNotation
 //256+874159+878745sadasd+sad5589741-8895478-
+
+//3+4*2/(1-5)^2^3
