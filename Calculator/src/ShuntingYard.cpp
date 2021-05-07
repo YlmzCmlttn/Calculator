@@ -6,16 +6,16 @@ namespace ShuntingYard
 {
 	bool isContainsNumbers(const std::string& str) {
 		// try to prove wrong
-		bool acceptDecimal = true;
-		bool acceptNegative = true;
+		bool isDecimal = false;
+		bool isNegative = false;
 		for (char c : std::string(str)) {
-			if (!ReversePolishNotation::isNumber(c, acceptDecimal, acceptNegative)) {
+			if (!ReversePolishNotation::isNumber(c, isDecimal, isNegative)) {
 				return false;
 			}
 			if (c == '.') {
-				acceptDecimal = false;
+				isDecimal = true;
 			} if (c == '-') {
-				acceptNegative = false;
+				isNegative = true;
 			}
 		}
 

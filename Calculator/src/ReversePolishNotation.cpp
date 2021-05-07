@@ -19,7 +19,7 @@ namespace ReversePolishNotation
         if (c >= '0' && c <= '9') {
 			return true;
 		}
-		else if (!decimal && c == '.') {
+		else if ((!decimal) && c == '.') {
 			return true;
 		}
 		else if (!negative && c == '-') {
